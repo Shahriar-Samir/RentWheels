@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme='light'>
-      <body
+      <body className="bg-[#e88409] text-white"
       >
         <Navbar/>
         {children}

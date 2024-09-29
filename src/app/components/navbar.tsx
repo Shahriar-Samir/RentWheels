@@ -14,7 +14,7 @@ export default Navbar;
 
 
 const Navbar1:React.FC = ()=>{
-  return  <section className="navbar bg-base-100">
+  return  <section className="navbar">
   <div className="flex-1">
     <a className="text-xl">rentwheels@gmail.com</a>
   </div>
@@ -24,7 +24,7 @@ const Navbar1:React.FC = ()=>{
       <li>
         <details>
           <summary>Parent</summary>
-          <ul className="bg-base-100 rounded-t-none p-2">
+          <ul className="rounded-t-none p-2">
             <li><a>Link 1</a></li>
             <li><a>Link 2</a></li>
           </ul>
@@ -37,7 +37,7 @@ const Navbar1:React.FC = ()=>{
 
 
 const Navbar2:React.FC = ()=>{
-    return  <section className="navbar bg-base-100">
+    return  <section className="navbar">
     <div className="navbar-start">
       <div className="dropdown">
         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -56,7 +56,7 @@ const Navbar2:React.FC = ()=>{
         </div>
         <ul
           tabIndex={0}
-          className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+          className="menu menu-sm dropdown-content  rounded-box z-[1] mt-3 w-52 p-2 shadow">
           <li><Link href='/'>Home</Link></li>
           <li>
             <a>Parent</a>
